@@ -32,6 +32,3 @@ public:
         return 0;   //If there are no stones left
     }
 };
-
-//Time Complexity: O(n log n)
-//Space Complexity: O(n)
