@@ -29,7 +29,9 @@ public:
                 maxHeap.push(difference);               //Push the new stone with the weight=difference into maxHeap
             }
         }
-
         return 0;   //If there are no stones left
     }
 };
+
+//Time Complexity: O(n log n)
+//Space Complexity: O(n)
